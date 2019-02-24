@@ -22,7 +22,7 @@ def create(command):
 
 
 def add(command):
-    command_1 = [command[0], command[2] + '1', command[1]]
+    command_1 = [command[0], command[2], command[1]]
     return create(command_1)
 
 
@@ -47,4 +47,4 @@ for i in range(int(input())):
     if command[0] == code_list[1]:
         namespace_n = add(command)
     if command[0] == code_list[2]:
-        print(get(command[2] + '1', command[1]))
+        print(get(command[2], command[1]))
