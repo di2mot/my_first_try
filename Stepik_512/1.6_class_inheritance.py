@@ -1,27 +1,17 @@
 namespace_n = dict()
 
 
-def find_path(graph, start, end, path=[]):
-
+def find_path(start, end, path=[]):
     path = path + [start]
-
     if start == end:
-
         return 'Yes'
-
-    if start not in graph:
-
+    if start not in namespace_n:
         return None
-
-    for node in graph[start]:
-
+    for node in namespace_n[start]:
         if node not in path:
-
-            newpath = find_path(graph, node, end, path)
-
+            newpath = find_path(node, end, path)
             if newpath:
                 return newpath
-
     return None
 
 
@@ -32,9 +22,7 @@ def new_dict(key, value=''):
     time_set = time_set.union(namespace_n[key])
     time_set.add(value)
     namespace_n[key] = time_set
-
     return namespace_n
-
 
 
 # вводится число n класов
@@ -54,7 +42,6 @@ for i in range(int(input())):
             for i in space:
                 new_dict(i, input_command[0])
                 new_dict(input_command[0])
-
         else:
             # если строка из одного символа то всё просто
             new_dict(input_command[1], input_command[0])
@@ -68,11 +55,7 @@ for i in range(int(input())):
 # вводится число запросов
 for i in range(int(input())):
     reqvest = str(input()).split()
-    key = reqvest[0]
-    var = reqvest[1]
-    if key == var:
-        print('Yes')
-    elif str(find_path(namespace_n, key, var)) == 'Yes':
+    if str(find_path(reqvest[0], reqvest[1])) is 'Yes':
         print('Yes')
     else:
-        print("No")
+        print('No')
