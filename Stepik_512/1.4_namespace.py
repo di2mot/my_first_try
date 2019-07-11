@@ -20,12 +20,6 @@ def create(command):
 
     return namespace_n
 
-
-def add(command):
-    command_1 = [command[0], command[2], command[1]]
-    return create(command_1)
-
-
 def get(var, per):
 
     if per in namespace_n and var in namespace_n[per]:
