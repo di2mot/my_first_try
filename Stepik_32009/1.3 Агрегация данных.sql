@@ -7,5 +7,5 @@
 select category, sum(price*sold_num) AS revenue
 from store
 group by category
-order by sum(price*sold_num) DESC
+order by revenue DESC
 limit 5;
