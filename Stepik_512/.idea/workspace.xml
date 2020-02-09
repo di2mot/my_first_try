@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7ad74ef-62d8-4718-ae2d-e9304c695836" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/3_Python_in_practic/3.6.API_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Python_in_practic/3.6_API_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_Python_in_practic/3.7_XML.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_Python_in_practic/3.5_JSON.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_Python_in_practic/3.5_JSON.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +27,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Stepik_575" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -49,29 +47,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.3.6_API_2">
-    <configuration name="3.4.1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Stepik_512" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_Python_in_practic" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_Python_in_practic/3.4.1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.3.7_XML">
     <configuration name="3.5_CSV_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Stepik_512" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -160,13 +136,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="3.7_XML" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Stepik_512" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_Python_in_practic" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_Python_in_practic/3.7_XML.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.3.7_XML" />
         <item itemvalue="Python.3.6_API_2" />
         <item itemvalue="Python.3.6.API_1" />
         <item itemvalue="Python.3.5_JSON" />
         <item itemvalue="Python.3.5_CSV_1" />
-        <item itemvalue="Python.3.4.1" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +188,10 @@
       <workItem from="1577896225159" duration="7229000" />
       <workItem from="1578691156901" duration="287000" />
       <workItem from="1578691538091" duration="461000" />
-      <workItem from="1578765326370" duration="5134000" />
+      <workItem from="1578765326370" duration="9153000" />
+      <workItem from="1578824101034" duration="7640000" />
+      <workItem from="1579122449539" duration="1209000" />
+      <workItem from="1579442298924" duration="2922000" />
     </task>
     <task id="LOCAL-00001" summary="New">
       <created>1569187689660</created>
@@ -237,9 +238,10 @@
     <SUITE FILE_PATH="coverage/Stepik_512$3_3_9.coverage" NAME="3.3.9 Coverage Results" MODIFIED="1573069700371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3_Python_in_practic" />
     <SUITE FILE_PATH="coverage/Stepik_512$3_3_2.coverage" NAME="3.3.2 Coverage Results" MODIFIED="1572807740117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3_Python_in_practic" />
     <SUITE FILE_PATH="coverage/Stepik_512$3_4.coverage" NAME="3.4 Coverage Results" MODIFIED="1573489537623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3_Python_in_practic" />
-    <SUITE FILE_PATH="coverage/Stepik_512$3_6_API_2.coverage" NAME="3.6_API_2 Coverage Results" MODIFIED="1578771392858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3_Python_in_practic" />
+    <SUITE FILE_PATH="coverage/Stepik_512$3_6_API_2.coverage" NAME="3.6_API_2 Coverage Results" MODIFIED="1578774357186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3_Python_in_practic" />
     <SUITE FILE_PATH="coverage/Stepik_512$3_3_5.coverage" NAME="3.3.5 Coverage Results" MODIFIED="1572814193611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3_Python_in_practic" />
     <SUITE FILE_PATH="coverage/Stepik_512$3_4_1.coverage" NAME="3.4.1 Coverage Results" MODIFIED="1573513244556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3_Python_in_practic" />
+    <SUITE FILE_PATH="coverage/Stepik_512$3_7_XML.coverage" NAME="3.7_XML Coverage Results" MODIFIED="1579443980453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3_Python_in_practic" />
     <SUITE FILE_PATH="coverage/Stepik_512$3_3_3.coverage" NAME="3.3.3 Coverage Results" MODIFIED="1572810580585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3_Python_in_practic" />
     <SUITE FILE_PATH="coverage/Stepik_512$3_3_8.coverage" NAME="3.3.8 Coverage Results" MODIFIED="1573067487047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3_Python_in_practic" />
     <SUITE FILE_PATH="coverage/Stepik_512$3_5_JSON.coverage" NAME="3.5_JSON Coverage Results" MODIFIED="1573983265660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3_Python_in_practic" />
