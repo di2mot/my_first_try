@@ -4,7 +4,10 @@ link = "http://selenium1py.pythonanywhere.com/"
 
 
 class TestMainPage1():
-
+    '''
+    setup_class() - в PyTest, если прописан это метод, то запускается перед тестами
+    teardown_class() - PyTest, если прописан этот метод, то запскается после тестов
+    '''
     @classmethod
     def setup_class(self):
         print("\nstart browser for test suite 1 ..")
@@ -27,6 +30,10 @@ class TestMainPage1():
 
 
 class TestMainPage2():
+    '''
+    setup_class() - в PyTest, если прописан это метод, то запускается перед тестами
+    teardown_class() - PyTest, если прописан этот метод, то запскается после тестов
+    '''
 
     def setup_method(self):
         print("start browser for test 2..")
